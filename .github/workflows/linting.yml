@@ -10,4 +10,4 @@ jobs:
         make install
       - name: run 
       run: |
-	  make lint
+        make lint
