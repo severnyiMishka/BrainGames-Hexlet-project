@@ -9,6 +9,8 @@ jobs:
 
     steps:
 
+    uses: actions
+
     - name: npm install
       run: |
         make install
