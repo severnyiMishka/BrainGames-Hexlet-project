@@ -9,7 +9,7 @@ jobs:
 
     steps:
 
-    uses: actions
+    - uses: actions
 
     - name: npm install
       run: |
