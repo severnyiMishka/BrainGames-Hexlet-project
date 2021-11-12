@@ -8,14 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
-    - uses: actions
-
+    
     - name: npm install
       run: |
         make install
-      env: 
-        CI: true
 
     - name: run linter
       run: |
